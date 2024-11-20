@@ -1,0 +1,59 @@
+# Общие игнорируемые файлы и папки для Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.pot
+
+# Файлы кеша и временные файлы
+*.sqlite3
+*.db
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.~*
+
+# Конфигурационные файлы окружения
+backend/.env
+*.ini
+*.cfg
+*.yaml
+*.yml
+
+# Сторонние зависимости
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.env.docker
+docker-compose.override.yml
+
+# Ignored by testing frameworks
+coverage.xml
+nosetests.xml
+test_results/
+*.cover
+*.py,cover
+
+# Ignored by build tools
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cac

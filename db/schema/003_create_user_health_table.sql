@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS user_health (
+    user_id INTEGER PRIMARY KEY REFERENCES users(user_id) ON DELETE CASCADE,
+    weight FLOAT NOT NULL,
+    height FLOAT NOT NULL
+);
